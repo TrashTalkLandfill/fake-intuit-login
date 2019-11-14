@@ -227,3 +227,46 @@ a {
   height: 22px;
   width: 74px;
 }
+
+.form-wrapper {
+  margin: auto;
+  height: 606px;
+  width: 318px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(199, 199, 199);
+}
+
+#form-header {
+  color: #4C4C4C;
+  line-height: 1.1;
+  font-size: 24px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.form-parts {
+  width: 320px;
+  margin: auto;
+}
+
+#form-subhead {
+  padding: 20px 0 20px;
+  height: 32px;
+}
+#form-subhead p {
+  text-align: center;
+}
+
+.form-text {
+  color: rgb(76, 76, 76);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300px;
+}
+
+#learn-link {
+  font-size: 12px;
+  line-height: 1.4;
+}

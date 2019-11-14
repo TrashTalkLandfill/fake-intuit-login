@@ -14,7 +14,7 @@
             <div><a href="#">I forgot my user ID or password</a></div>
           </div>
           <div class="signincolumn rightsign">
-            <button class="signinbutton"><div id="lockicon"></div><span>Sign In</span></button>
+            <button class="button" id="signinbutton"><div class="lockicon"></div><span>Sign In</span></button>
           </div>
         </div>
       </header>
@@ -39,6 +39,33 @@
           <p class="form-text" id="subhead-text">One account for everything Intuit, including Mint.</p>
           <p class="form-text" id="learn-link"><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></p>
         </div>
+        <form class="form-parts" id="form" action="#" method="POST">
+          <fieldset class="form-parts" id="email-fieldset">
+            <label class="form-parts field-label" for="email-box">Email address</label>
+            <input class="text-box" id="email-box" type="email" required="required">
+            <div class="margin-block"></div>
+          </fieldset>
+          <fieldset class="form-parts" id="phone-fieldset">
+            <label class="form-parts field-label" for="phone-box">Phone (recommended)</label>
+            <input class="text-box" id="phone-box" type="tel" required="required">
+            <span id="rate-warning">Standard call, messaging or data rates may apply.</span>
+            <div class="margin-block"></div>
+          </fieldset>
+          <fieldset class="form-parts" id="pw-fieldset">
+            <label class="form-parts field-label" for="pw-box">Password</label>
+            <div id="lockblock">
+              <input class="text-box" id="pw-box" type="password" required="required">
+            </div>
+            <div class="margin-block"></div>
+          </fieldset>
+          <div class="form-parts" id="button-container">
+            <button type="submit" class="button form-parts" id="submit-button" name="SignUp">
+                <div class="lockicon" id="mainlock"></div>
+                <span>Create Account</span>
+            </button>
+          </div>
+        </form>
+
       </section>
     </div>
   </body>

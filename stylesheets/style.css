@@ -54,6 +54,7 @@ body {
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
   background-color: #eceef1;
+  height: 100vw
 }
 
 #page {
@@ -232,9 +233,9 @@ a {
 
 .form-wrapper {
   margin: auto;
-  height: 606px;
+  height: 636px;
   width: 318px;
-  padding: 30px;
+  padding: 30px 30px 0 30px;
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(199, 199, 199);
 }
@@ -340,4 +341,44 @@ a {
   position: relative;
   bottom: 1px;
   right: 2px;
+}
+
+.disclaimer-container {
+  height: 63px;
+  text-align: center;
+}
+
+.disclaimer {
+  font-size: 11px;
+  font-style: italic;
+  color: rgb(117, 117, 117);
+  line-height: 19px;
+}
+
+#more-terms {
+  width: 378px;
+  padding: 0px;
+  height: 53px;
+  margin-top: 32px;
+  position: relative;
+  right: 30px;
+  background-color: rgb(236, 238, 241);
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+  
+}
+
+#more-terms p {
+  vertical-align: middle;
+  padding-top: 6px;
+  color: rgb(141, 144, 150);
+}
+
+#page-footer {
+  width: 100%;
+  padding: 20px 52px;
+  height: 100px;
+  box-sizing: border-box;
 }

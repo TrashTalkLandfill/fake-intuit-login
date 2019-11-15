@@ -54,7 +54,7 @@ body {
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
   background-color: #eceef1;
-  height: 100vw
+
 }
 
 #page {
@@ -381,4 +381,11 @@ a {
   padding: 20px 52px;
   height: 100px;
   box-sizing: border-box;
+  text-align: center;
+}
+
+#page-footer p {
+  color: rgb(80, 80, 80);
+  font-size: 11px;
+  line-height: 19px;
 }
